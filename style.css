@@ -21,7 +21,7 @@ img {
 }
 
 .topnav a,
-.topnav a:visited {
+.topnav a:visited .topnav a:link {
     float: left;
     color: #f2f2f2;
     text-align: center;
@@ -60,13 +60,14 @@ h2 {
 iframe {
     margin: 0 auto;
     display: block;
+    border: 0;
 }
 
 a,
 a:visited,
 a:focus,
 a:active,
-a:link {
+{
     color: black;
 }
 
